@@ -4,8 +4,9 @@
     <string name="clave">Contraseña</string>
     <string name="btn1">INGRESAR</string>
     <string name="btn2">REGISTRARSE</string>
-    <string name="saludo">¡Hola %s!</string>
-    <string name="titulo">BIENVENIDO</string>
+    <string name="saludo">¡Bienvenido de nuevo %s!</string>
+    <string name="titulo">INICIAR SESION</string>
+    <string name="btnAcercaDe">CONTINUAR</string>
 
 
 

@@ -2,6 +2,7 @@ package com.esteban.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -9,6 +10,7 @@ public class PantallaDos extends AppCompatActivity {
 
     TextView tvSaludo;
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,7 +20,7 @@ public class PantallaDos extends AppCompatActivity {
 
         String user = getIntent().getStringExtra("user");
 
-        tvSaludo.setText("¡Hola " + user + "!");
+        tvSaludo.setText("¡Bienvenido de nuevo " + user + "!");
     }
 
 
